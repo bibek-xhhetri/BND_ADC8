@@ -1,0 +1,37 @@
+git clone
+git clone is a Git command line utility which
+is used to target an existing repository and create a clone,
+or copy of the target repository.
+
+git push
+The git push command is used to upload local repository content to a 
+remote repository. Pushing is how you transfer commits from your local
+repository to a remote repo. It's the counterpart to git fetch ,
+but whereas fetching imports commits to local branches,
+pushing exports commits to remote branches.
+
+git pull
+git pull is a Git command used to update the local version of a repository from a remote.
+By default, git pull does two things. Updates the current local working branch (currently checked out branch)
+Updates the remote tracking branches for all other branches.
+
+merge conflict
+Merge conflicts happen when you merge branches that have competing commits,
+and Git needs your help to decide which changes to incorporate 
+in the final merge.
+
+git branches
+A branch in Git is simply a lightweight movable pointer to one of these commits. 
+The default branch name in Git is master .
+As you start making commits, you're given a master branch that
+points to the last commit you made. Every time you commit, the master
+branch pointer moves forward automatically
+
+git commit
+
+Git-commit is a commit, or "revision", is an individual
+change to a file (or set of files). It's like when you save a
+file, except with Git, every time you save it creates a unique
+ID (a.k.a. the "SHA" or "hash") that allows you to keep record
+of what changes were made when and by who.
+
